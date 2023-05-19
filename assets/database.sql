@@ -48,7 +48,7 @@ VALUES
 ALTER TABLE
     choices
 ADD
-    PRIMARY KEY (id);
+    COLUMN id INTEGER;
 
 UPDATE
     choices

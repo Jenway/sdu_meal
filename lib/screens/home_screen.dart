@@ -116,9 +116,6 @@ class HomePageState extends State<HomePage> {
       randomChoice.then(
         (value) => {
           setState(() {
-            // _selectedCanteen = value[2] == 'south' ? '南区' : '北区';
-            // _selectedWindow = "${value[1]} 号窗口";
-            // _selectedFood = value[0];
             _selectedCanteen = value[0];
             _selectedFloor = value[1];
             _selectedWindow = "${value[2]}窗口";
